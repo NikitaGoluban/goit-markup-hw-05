@@ -544,17 +544,15 @@ img {
     justify-content: center;
     flex-direction: row;
     gap: 16px;
-    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
-
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
 
     background: #4d5ae5;
@@ -573,18 +571,17 @@ img {
 
 .modal-overlay {
     position: fixed;
-        top: 0;
-        z-index: 9999;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(46, 47, 66, 0.4);
-        visibility: hidden;
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    top: 0;
+    z-index: 9999;
+    left: ;eft: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        
 }
 
 .modal-overlay.is-open {
@@ -660,11 +657,11 @@ position: absolute;
 
 .form-label {
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .form-cont-input {
